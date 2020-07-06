@@ -1,0 +1,24 @@
+{
+  "name": "angular-training",
+  "version": "1.0.0",
+  "description": "Angular練習メモ",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokrh/angular-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yokrh/angular-training/issues"
+  },
+  "homepage": "https://github.com/yokrh/angular-training#readme",
+  "dependencies": {
+    "@angular/cli": "^10.0.1"
+  }
+}
