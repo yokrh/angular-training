@@ -1,5 +1,7 @@
-<app-home-title [title]="title"></app-home-title>
-
 <a routerLink="about" class="router-link">about</a>
 <a routerLink="/about" class="router-link">/about</a>
 <a routerLink="/404" class="router-link">404</a>
+
+<app-home-title [title]="title"></app-home-title>
+
+<app-home-title-input (newTitleEvent)="updateTitle($event)"></app-home-title-input>

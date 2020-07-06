@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  title: string = 'Title defined by parent component';
+  defaultTitle: string = 'Title defined by parent component';
+  title: string = this.defaultTitle;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  updateTitle(newTitle: string): void {
+    console.log('HomeComponent#updateTitle() newTitle:', newTitle);
+    this.title = newTitle || this.defaultTitle;
+  }
 }
